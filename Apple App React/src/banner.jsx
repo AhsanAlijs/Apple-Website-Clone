@@ -10,7 +10,7 @@ function Banner() {
                 </div>
 
                 <div className="flex items-center justify-center fixed w-[100%] top-[60%] max-sm:top-[70%]">
-                    <div className="hidden max-sm:block fixed top-[5%] z-[-1] ">
+                    <div className="hidden max-sm:block fixed top-[5%] z-[-1]">
                         <img className="object-cover w-[100vw] h-[100vh]" src="./src/assets/Websiteimages/banner02.jpg" alt="" />
                     </div>
                     <div className="text-center">
