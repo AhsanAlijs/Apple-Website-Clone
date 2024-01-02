@@ -5,13 +5,13 @@ function Banner() {
             <div>
                 <div className="max-sm:hidden">
                     <video playsInline autoPlay muted loop poster="polina.jpg" id="bgvid" className="object-cover w-[100vw] h-[100%] fixed  left-0  z-[-1] cursor-pointer ">
-                        <source src="./src/assets/Websiteimages/banner.mp4" type="video/mp4" />
+                    <source src="./src/assets/Websiteimages/banner.mp4" type="video/mp4" />
                     </video>
                 </div>
 
                 <div className="flex items-center justify-center fixed w-[100%] top-[60%] max-sm:top-[70%]">
                     <div className="hidden max-sm:block fixed top-[5%] z-[-1]">
-                        <img className="object-cover w-[100vw] h-[100vh]" src="./src/assets/Websiteimages/banner02.jpg" alt="" />
+                    <img className="object-cover w-[100vw] h-[100vh]" src="./src/assets/Websiteimages/banner02.jpg" alt="" />
                     </div>
                     <div className="text-center">
                         <img src="./src/assets/Websiteimages/02.png" className="m-[auto]" alt="Fitness" />
