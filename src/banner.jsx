@@ -1,11 +1,11 @@
-
+import banner from './assets/Websiteimages/banner.mp4'
 function Banner() {
     return (
         <>
             <div>
                 <div className="max-sm:hidden">
                     <video playsInline autoPlay muted loop poster="polina.jpg" id="bgvid" className="object-cover w-[100vw] h-[100%] fixed  left-0  z-[-1] cursor-pointer ">
-                    <source src="./src/assets/Websiteimages/banner.mp4" type="video/mp4" />
+                    <source src={banner} type="video/mp4" />
                     </video>
                 </div>
 
