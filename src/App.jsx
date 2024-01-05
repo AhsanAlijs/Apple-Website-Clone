@@ -1,21 +1,32 @@
-import Banner from './banner';
-import Navbar from './Nav';
-import Watch from './watch'
-function App (){
-  return(
+import React from 'react'
+import images from './assets/Websiteimages/Navbar.png'
+
+function App() {
+  return (
     <>
     <div>
-      <Navbar />
-    </div>
-    <div>
-    <Banner />
-    </div>
-    <div>
-      <Watch/>
+      <div>
+        <img src={images} alt="" />
+      </div>
+      <nav>
+
+        <ul>
+          <li><a>Store</a></li>
+          <li><a>Mac</a></li>
+          <li><a>ipad</a></li>
+          <li><a>iphone</a></li>
+          <li><a>Watch</a></li>
+          <li><a>vision</a></li>
+          <li><a>Airpods</a></li>
+          <li><a>TV&Home</a></li>
+          <li><a>Entertainment</a></li>
+          <li><a>Ac</a></li>
+        </ul>
+
+      </nav>
     </div>
     </>
-
   )
 }
 
-export default App;
+export default App
