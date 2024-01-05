@@ -20,7 +20,8 @@ function App() {
           <li><a>Airpods</a></li>
           <li><a>TV&Home</a></li>
           <li><a>Entertainment</a></li>
-          <li><a>Ac</a></li>
+          <li><a>Accessories</a></li>
+          <li><a>Support</a></li>
         </ul>
 
       </nav>
