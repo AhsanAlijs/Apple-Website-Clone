@@ -1,0 +1,25 @@
+.bg-img {
+    background-image: url('https://www.apple.com/v/home/bi/images/heroes/apple-vision-pro/hero_apple_vision_pro__e8407ehady6i_largetall.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 80vmin;
+    width: 100%;
+}
+
+.bg-2 {
+    background-image: url('https://www.apple.com/v/home/bi/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 80vmin;
+    width: 100%;
+}
+.bg-3 {
+    background-image: url('https://www.apple.com/v/home/bi/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 80vmin;
+    width: 100%;
+}
